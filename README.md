@@ -31,6 +31,7 @@ roslaunch project_control direct.launch
 ```
 #### Calling function
 Launch in third terminal:
+```
 source devel/setup.bash
 rosservice call /direct_kin_service_front_left_leg "
 joint1:
@@ -42,3 +43,4 @@ joint3:
 joint4:
  data: -1.629
  "
+ ```
